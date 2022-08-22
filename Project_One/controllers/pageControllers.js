@@ -32,7 +32,7 @@ const showNewspage = (req, res)=> {
 const showGallerypage = (req, res)=> {
     res.status(200).sendFile(path.join(__dirname, '../public/gallery.html'));
 }
-
+// Revorder controllers
 const showRevorder = (req, res) =>{
     res.status(200).json(req.body);
 }
